@@ -20,7 +20,7 @@ User just has to provide details of source and destination in easily configurabl
 ## Cloning Nimbus-NiFi
 
 ```
-git clone <Nimbus-Nifi-repo>
+git clone git@github.com:tothenew/nimbus-nifi.git
 ```
 
 ## Important Points to Consider before Configuring 
