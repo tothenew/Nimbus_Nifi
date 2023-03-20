@@ -6,7 +6,6 @@
 Apache NiFi is a real time data ingestion platform, which can transfer and manage data transfer between different sources and destination systems.This supports a wide variety of data sources and protocols making this platform popular in many IT organizations.
 
 ## Basic Features
-![Source | Destination picture  ](path/to/screenshot)
 
 Nimbus-NiFi enables users to ingest data from multiple sources into different destinations without the need of writing any script.
 User just has to provide details of source and destination in easily configurable json files and Nimbus-NiFi will do the rest.
