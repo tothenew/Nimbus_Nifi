@@ -1,0 +1,31 @@
+version: "3"
+services:
+    nifi:
+        image: apache/nifi:1.15.3
+        container_name: nifi
+        restart: unless-stopped
+        ports:
+            - 8443:8443
+        environment:
+            - NIFI_WEB_HTTPS_PORT=8443
+            - SINGLE_USER_CREDENTIALS_USERNAME=<enter your username>
+            - SINGLE_USER_CREDENTIALS_PASSWORD=<enter your password>
+            - NIFI_WEB_PROXY_HOST=
+            - NIFI_WEB_HTTPS_HOST=0.0.0.0
+            - NIFI_CLUSTER_ADDRESS=0.0.0.0
+            - NIFI_REMOTE_INPUT_HOST=0.0.0.0
+            - AUTH=tls
+            - KEYSTORE_PATH=/opt/certs/keystore.jks
+            - KEYSTORE_TYPE=JKS
+            - KEYSTORE_PASSWORD=<enter your KEYSTORE_PASSWORD from nifi.properties file >
+            - TRUSTSTORE_PATH=/opt/certs/truststore.jks
+            - TRUSTSTORE_TYPE=JKS
+            - TRUSTSTORE_PASSWORD=<enter your TRUSTSTORE_PASSWORD from nifi.properties file>
+            - NIFI_SECURITY_USER_AUTHORIZER=single-user-authorizer
+            - NIFI_SECURITY_USER_LOGIN_IDENTITY_PROVIDER=single-user-provider
+        volumes:
+          - ./keystore.jks:/opt/certs/keystore.jks
+          - ./truststore.jks:/opt/certs/truststore.jks
+          - ./ojdbc8.jar:/opt/oracle_jar/ojdbc8.jar
+          - ./mysql-connector-java-8.0.29.jar:/opt/mysql_jar/mysql-connector-java-8.0.29.jar
+          - ./postgresql-42.4.1.jar:/opt/postgre_jar/postgresql-42.4.1.jar

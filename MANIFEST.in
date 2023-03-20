@@ -1,0 +1,6 @@
+include nifi/config.json
+include nifi/setup.json
+include nifi/ingestion_templates/*
+include nifi/run_templates/*
+include nifi/environment/data_ingestion/*
+include nifi/environment/properties_templates/*

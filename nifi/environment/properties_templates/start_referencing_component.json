@@ -1,0 +1,12 @@
+{
+  "status": {
+    "runStatus": "RUNNING"
+  },
+  "component": {
+    "state": "RUNNING",
+    "id": ""
+  },
+  "revision": {
+    "version": ""
+  }
+}

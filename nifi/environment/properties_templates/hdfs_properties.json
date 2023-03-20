@@ -1,0 +1,30 @@
+{
+    "processGroupRevision": {
+        "version": ""
+    },
+    "variableRegistry": {
+        "variables": [
+            {
+                "variable": {
+                    "name": "hdfs_site",
+                    "value": ""
+                },
+                "canWrite": true
+            },
+            {
+                "variable": {
+                    "name": "core_site",
+                    "value": ""
+                },
+                "canWrite": true
+            },
+            {
+                "variable": {
+                    "name": "hdfs-path",
+                    "value": ""
+                },
+                "canWrite": true
+            }
+        ]
+    }
+}

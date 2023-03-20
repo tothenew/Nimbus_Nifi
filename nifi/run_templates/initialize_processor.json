@@ -1,0 +1,22 @@
+{
+	"revision": {
+		"version": ""
+	},
+	"component": {
+		"id": "",
+		"parentGroupId": "",
+		"name": "GenerateFlowFile",
+		"type": "org.apache.nifi.processors.standard.GenerateFlowFile",
+		"state": "RUNNING",
+		"config": {
+			"properties": {
+				"File Size": "0B",
+				"Batch Size": "1",
+				"Data Format": "Text",
+				"Unique FlowFiles": "false",
+				"generate-ff-custom-text": "",
+				"character-set": "UTF-8"
+			}
+		}
+	}
+}

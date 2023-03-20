@@ -1,0 +1,35 @@
+{
+  "mysql" : {
+    "Database Connection URL": "<jdbc connection url for mysql>",
+    "Database Driver Class Name": "<jdbc driver name>",
+    "database-driver-locations": "<location/path of driver",
+    "Database User": "<user name>",
+    "Password": "<password>"
+  },
+  "postgre" :
+  {
+    "Database Connection URL": "<jdbc connection url for postgre>",
+    "Database Driver Class Name": "<jdbc driver name>",
+    "database-driver-locations": "<location/path of driver",
+    "Database User": "<user name>",
+    "Password": "<password>"
+  },
+    "oracle":
+  {
+    "Database Connection URL": "<jdbc connection url for oracle>",
+    "Database Driver Class Name": "<jdbc driver name>",
+    "database-driver-locations": "<location/path of driver",
+    "Database User": "<user name>",
+    "Password": "<password>"
+  },
+  "s3"  : {
+    "Access Key" : "",
+    "Secret Key" : "",
+    "Region" : "<refer to the region cheetsheet>"
+  },
+  "hdfs" : {
+    "core-site" : "<path to your core-site.xml file>",
+    "hdfs-site" : "<path to your hdfs-site.xml file>",
+    "hdfs-path" : "<hdfs path>"
+  }
+}

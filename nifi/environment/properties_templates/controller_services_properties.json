@@ -1,0 +1,17 @@
+{
+    "revision": {
+        "version": ""
+    },
+    "permissions": {
+	    "canRead": true,
+	    "canWrite": true
+	},
+    "disconnectedNodeAcknowledged": true,
+    "component": {
+		"id": "",
+	    "state": "ENABLED"
+	},
+    "status": {
+	    "runStatus": "ENABLED"
+	}
+}

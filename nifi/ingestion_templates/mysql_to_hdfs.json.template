@@ -1,0 +1,26 @@
+{
+  "source":
+{
+  "source_type":"RDBMS",
+  "database":
+  {
+    "db_type":"Mysql",
+    "db_name":"<DATABASE_NAME>",
+    "table_list":
+    [{
+      "table_name":"<TABLE_NAME>",
+      "inc_col_name": "<incremental column name>",[remove inc_col_name key if running full load]
+      "inc_col_state": "<incremental column value>"[remove inc_col_state key if running full load]
+    },
+    {
+        "table_name": "<TABLE_NAME>",
+        "inc_col_name": "<incremental column name>",[remove inc_col_name key if running full load]
+      	"inc_col_state": "<incremental column value>"[remove inc_col_state key if running full load]
+    }
+    ]}},
+  "storage":
+  {
+    "file_format":"<FILE_FORMAT>",
+    "destination_type":"<hdfs>"
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "revision": {
+        "version": ""
+    },
+    "permissions": {
+	    "canRead": true,
+	    "canWrite": true
+	},
+    "disconnectedNodeAcknowledged": true,
+    "component": {
+		"id": "",
+	    "name": "Nimbus_postgre_DBCPConnectionPool",
+	    "state": "ENABLED",
+	    "properties": {
+	        "Database Connection URL": "",
+            "Database Driver Class Name": "",
+            "database-driver-locations": "",
+			"Database User": "",
+			"Password": ""
+	    }
+	},
+    "status": {
+	    "runStatus": "ENABLED"
+	}
+}

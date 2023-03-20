@@ -1,0 +1,12 @@
+{
+  "host": "<host>",
+  "port": "<port-number>",
+  "SSL-ENABLED": "<true/false>",
+  "ssl":
+  { <Give file-path only if SSL_ENABLED is true>
+    "ca_file_path": "<path to your nifi_cert.pem file>",
+    "client_cert_file": "<path to your cn file>",
+    "client_key_file": "<path to your key file>"
+  }
+
+}

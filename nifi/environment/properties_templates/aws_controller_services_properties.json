@@ -1,0 +1,21 @@
+{
+    "revision": {
+        "version": ""
+    },
+    "permissions": {
+	    "canRead": true,
+	    "canWrite": true
+	},
+    "disconnectedNodeAcknowledged": true,
+    "component": {
+	    "name": "Nimbus_AWSCredentialsProviderControllerService",
+	    "state": "ENABLED",
+	    "properties": {
+	        "Access Key": "",
+            "Secret Key": ""
+	    }
+	},
+    "status": {
+	    "runStatus": "ENABLED"
+	}
+}

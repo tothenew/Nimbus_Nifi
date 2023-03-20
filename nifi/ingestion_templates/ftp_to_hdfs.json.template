@@ -1,0 +1,15 @@
+{"source": {
+  "source_type": "FTP",
+  "ftp": {
+    "hostname": "<HOSTNAME>",
+    "username": "<USERNAME>",
+    "password": "<PASSWORD>",
+    "remote_path": "<REMOTE_FILE_PATH>"
+  }
+},
+  "storage":
+  {
+    "file_format":"<DESTINATION_FILE_FORMAT>",
+    "destination_type":"hdfs"
+  }
+}

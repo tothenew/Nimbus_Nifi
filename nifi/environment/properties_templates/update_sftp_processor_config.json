@@ -1,0 +1,16 @@
+{
+	"revision": {
+		"version": ""
+	},
+	"component": {
+		"id": "",
+		"parentGroupId": "",
+		"name": "FetchSFTP",
+		"state": "RUNNING",
+		"config": {
+			"properties": {
+				"Password": ""
+			}
+		}
+	}
+}

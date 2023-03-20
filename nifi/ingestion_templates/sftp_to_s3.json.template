@@ -1,0 +1,20 @@
+{"source": {
+  "source_type": "SFTP",
+  "sftp": {
+    "hostname": "<HOSTNAME>",
+    "username": "<USERNAME>",
+    "password": "<PASSWORD>",
+    "private_key_path": "<PRIVATE_KEY_PATH>",
+    "Private_Key_Passphrase":"<PRIVATE_KEY_PASSPHRASE>",[remove Private_Key_Passphrase key if you dont have any passphrase ]
+    "remote_path": "<REMOTE_FILE_PATH>"
+  }
+},
+"storage":
+  {
+    "file_format":"<DESTINATION_FILE_FORMAT>",
+    "destination_type":"S3",
+    "s3":
+    {
+      "bucket_name":"<bucket_name>",
+      "bucket_path":"<bucket_path>"
+    }}}

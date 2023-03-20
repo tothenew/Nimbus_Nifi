@@ -1,0 +1,18 @@
+{"source": {
+  "source_type": "FTP",
+  "ftp": {
+    "hostname": "<HOSTNAME>",
+    "username": "<USERNAME>",
+    "password": "<PASSWORD>",
+    "remote_path": "<REMOTE_FILE_PATH>"
+  }
+},
+"storage":
+  {
+    "file_format":"<DESTINATION_FILE_FORMAT>",
+    "destination_type":"S3",
+    "s3":
+    {
+      "bucket_name":"<bucket_name>",
+      "bucket_path":"<bucket_path>"
+    }}}
