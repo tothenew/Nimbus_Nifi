@@ -1,4 +1,4 @@
-![nimbus logo](/docs/images/Untitled.png)
+![nimbus logo](/docs/images/nimbus_logo.png)
 
 # Nimbus-NiFi : No Code Data Ingestion Framework using NiFi
 [Apache NiFi](https://github.com/apache/nifi) is one of the key tools in the area of Data Engineering and Big Data. It is primarily used for Data Ingestion and Orchestration.
