@@ -1,0 +1,6 @@
+nimbus-nifi
+Copyright 2022, To The New
+
+This software includes derived works from the nipyapi (ASLv2) project (https://github.com/Chaffelson/nipyapi):
+  Copyright (c) 2017-2018, Daniel Chaffelson
+  This includes implementation of NiFi api's.

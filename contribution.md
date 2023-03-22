@@ -41,12 +41,12 @@ Ready to contribute? Here's how to set up Nimbus for local development.
 
 1. Fork the Nimbus repository.
 
-    github <Nimbus repo>
+    github https://github.com/tothenew/nimbus-nifi.git
 
 2. Clone your fork locally.
 
     ```
-    git clone git@github.com:<username>/<Nimbus>.git
+    git clone git@github.com:<username>/nimbus-nifi.git
     ```
 
     replace `<username>` with your GitHub username.
@@ -54,7 +54,7 @@ Ready to contribute? Here's how to set up Nimbus for local development.
 3. Add a remote to keep up with upstream changes
 
     ```
-    git remote add upstream <Nimbus repo>
+    git remote add upstream https://github.com/tothenew/nimbus-nifi.git
     ```
 
     If you already have a copy, fetch upstream changes
@@ -80,7 +80,7 @@ Ready to contribute? Here's how to set up Nimbus for local development.
     Go to your Nimbus fork main page
 
     ```
-    https://github.com/<username>/<Nimbus repo>
+    https://github.com/<username>/nimbus-nifi
     ```
 
     If you recently pushed your changes GitHub will automatically pop up a

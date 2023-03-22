@@ -1,4 +1,4 @@
-![TTN-Nimbus](https://static1.tothenew.com/sites/default/files/inline-images/nimbus-lg.png )
+![Untitled.png](..%2F..%2Fnimbus-nifi%2Fdocs%2Fimages%2FUntitled.png)
 
 # Nimbus-NiFi : No Code Data Ingestion Framework using NiFi
 [Apache NiFi](https://github.com/apache/nifi) is one of the key tools in the area of Data Engineering and Big Data. It is primarily used for Data Ingestion and Orchestration.
@@ -6,6 +6,8 @@
 Apache NiFi is a real time data ingestion platform, which can transfer and manage data transfer between different sources and destination systems.This supports a wide variety of data sources and protocols making this platform popular in many IT organizations.
 
 ## Basic Features
+
+![Screenshot from 2023-03-09 15-18-24 (1).png](..%2F..%2Fnimbus-nifi%2Fdocs%2Fimages%2FScreenshot%20from%202023-03-09%2015-18-24%20%281%29.png) 
 
 Nimbus-NiFi enables users to ingest data from multiple sources into different destinations without the need of writing any script.
 User just has to provide details of source and destination in easily configurable json files and Nimbus-NiFi will do the rest.
